@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#menu{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: rgb(94, 247, 127);
+    color: black;
+}
+body{
+    width: 100%;
+}
+#head{
+    background: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#Cont{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    background-image: url('background.jpg');
+    color: white;
+}
+#Left{
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+#Right{
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+#footer{
+    clear: left;
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: 101px;
+    color: white;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+    transition: 1s;
+}
+
+h2:hover{
+    color: rgb(94, 247, 127);
+    transition: 1s;
+}
